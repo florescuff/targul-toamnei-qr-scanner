@@ -7,6 +7,9 @@
     <title>Târgul Toamnei QR Scanner</title>
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- Babel Standalone: Transpilează TSX/JSX în browser -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
     <!-- Import map: React 18 + bibliotecile externe -->
     <script type="importmap">
 {
@@ -24,6 +27,7 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="./index.tsx?v=2024092201"></script>
+    <!-- Tipul scriptului a fost schimbat în "text/babel" pentru a fi procesat de Babel -->
+    <script type="text/babel" data-type="module" src="./index.tsx?v=2024092201"></script>
   </body>
 </html>
