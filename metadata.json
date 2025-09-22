@@ -1,0 +1,7 @@
+{
+  "name": "Târgul Toamnei QR Scanner",
+  "description": "A web application to generate, manage, and scan QR code vouchers for a school's Autumn Fair event. It allows tracking scans for three different operators and viewing the status of all vouchers in a central dashboard.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
