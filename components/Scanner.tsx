@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Html5Qrcode } from 'html5-qrcode';
-import { BackIcon } from './icons';
+import { BackIcon } from './icons.tsx';
 
 interface ScannerProps {
   onScan: (decodedText: string) => void;
