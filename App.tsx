@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
-import type { Voucher, OperatorID, View } from './types';
-import Dashboard from './components/Dashboard';
-import Scanner from './components/Scanner';
-import { CameraIcon, ListIcon, PrintIcon, SuccessIcon, ErrorIcon, BanIcon, InfoIcon } from './components/icons';
-import { supabase } from './supabaseClient';
+import type { Voucher, OperatorID, View } from './types.ts';
+import Dashboard from './components/Dashboard.tsx';
+import Scanner from './components/Scanner.tsx';
+import { CameraIcon, ListIcon, PrintIcon, SuccessIcon, ErrorIcon, BanIcon, InfoIcon } from './components/icons.tsx';
+import { supabase } from './supabaseClient.ts';
 
 const TOTAL_VOUCHERS = 250;
 const VOUCHER_TABLE = 'vouchers';
