@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Voucher } from '../types';
+import type { Voucher } from '../types.ts';
 
 interface DashboardProps {
   vouchers: Voucher[];
